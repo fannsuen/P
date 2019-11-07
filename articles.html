@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Articles - fan's design</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Fan Suen" />
+	<meta name="keywords" content="Fan Suen, design, resources, tools, articles, iOS, iPhone, devices, sketch,">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />	
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+	<link rel="stylesheet" type="text/css" href="css/flex-layout-attribute.css">
+	<link rel="stylesheet" type="text/css" href="css/list.css">
+	<link rel="icon" href="favicon.ico"> 
+	<script type='text/javascript' src='js/jquery-2.1.0.min.js'></script>
+	<script type='text/javascript' src='js/global.js'></script>
+	<script type='text/javascript' src="js/jquery.mixitup.min.js"></script>
+	<script type='text/javascript' src='js/list.js'></script>
+</head>
+
+<body>
+
+<div id="nav" layout="row top-left">
+	<div self="left">
+		<a href="index.html"><div class="logo logo-isNotVisIfMobile">fan's design</div></a>
+		<a href="index.html"><div class="logo logo-isVisIfMobile"></div></a>
+	</div>
+	<div class="nav-isNotVisIfMobile">
+		<div class="item">
+		<a href="about.html">About</a>
+		</div>
+		<div class="item">
+		<a href="projects.html">Projects</a>
+		</div>
+		<div class="item current">
+		<a href="articles.html">Articles</a>
+		</div>
+		<div class="item">
+		<a href="misc.html">Misc</a>
+		</div>
+	</div>
+	<div class="nav-isVisIfMobile">
+		<div class="item">
+		<a href="about.html">About</a>
+		</div>
+		<div class="item">
+		<a href="projects.html">Projects</a>
+		</div>
+		<div class="item current">
+		<a href="articles.html">Articles</a>
+		</div>
+		<div class="item">
+		<a href="misc.html">Misc</a>
+		</div>
+	</div>
+</div>
+
+<div id="content">
+		
+	<div class="list-container">
+		<div layout="row top-left">
+
+			<div class="container--sidebar" self="top">
+				<div class="sidebar">
+					<div class="sidebar-title">
+						<h1>Articles</h1>
+					</div>
+					<div id="filters">
+						<div class="filter-tab">
+							<li class="filter sidebar-link" data-filter="all"><a data-scroll class="selected" href="#" data-type="all">All</a></li>
+							<li class="filter sidebar-link" data-filter=".design"><a data-scroll href="#" data-type="ui">Design</a></li>
+							<li class="filter sidebar-link" data-filter=".pt"><a data-scroll href="#" data-type="pt">Product & Technology</a></li>
+							<li class="filter sidebar-link" data-filter=".ac"><a data-scroll href="#" data-type="ac">Art & Culture</a></li>
+							
+							<li class="container--yuque">
+								<hr>
+								<a href="https://www.yuque.com/fansuen" target="_blank">
+									<div class="sidebar-yuque_button">
+										<div class="yuque-logo"></div>
+										<span>FanSuen @ yuque</span>
+									</div>
+								</a>
+							</li>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container--grid">
+				<ul layout="rows top-left">
+
+					<li class="mix ac">
+						<a href="https://www.yuque.com/fansuen/jeff/ykngrf" target="_blank"> <!--No Photo -->
+							<div class="card card--article not-visible" >
+								<div class="card-body">
+									<div class="card-title mt4 card-title--articleIfNoImage">“范式”、“转换”对设计史研究的作用</div>
+									<p class="card-description card-article-preview">读《走进殿堂的中国古代科技史》结语有感</p>
+									<p class="card-description card-description--clamp-14">常在设计问题讨论过程中出现为一个问题争论不休的状况，仔细回味每人讲话往往是既无前提，也无逻辑，因而讨论是无价值的，不是学术讨论而是大批判式的发言，由此养就了一批油嘴滑舌的“学霸”，没有成本地搅局。“结语”一文中提到“库思与科学革命理论”一段内容，读后体会与大家分享。
+									<br />
+									<br />
+									库思科学革命理论的核心概念是“范式”及其“转换”。所谓“范式”一般是指科学共同体成员共同遵循的理论体系及其蕴含的世界观和方法论，它对科学共同体成员提出问题的范畴、表述问题的方法、解决问题的途径，都起着一种规范作用。</p>
+								</div>
+								<div class="card-footer">
+									<div class="card-footer-wrapper" layout="row bottom-left">
+										<div class="card-tag is-notShownIfHover">Art & Culture</div>
+										<div class="card-tag is-shownIfHover">Read article</div>
+										<div class="card-link is-shownIfHover" self="right"></div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</li>
+
+					<li class="mix pt">
+						<a href="https://www.yuque.com/fansuen/jeff/fdzg5x" target="_blank"> <!--No Photo -->
+							<div class="card card--article not-visible" >
+								<div class="card-body">
+									<div class="card-title mt4 card-title--articleIfNoImage">设计与构造</div>
+									<p class="card-description card-description--clamp-17">"在观看《Objectified》一片时，映像颇深刻的是Jonathan Ive拿起一块初具雏形的用来制作macbook的铝板，讲解怎样利用各种巧妙的卡扣来代替螺丝的使用，以实现macbook的unibody的设计。当时以为，作为一名设计师，单单关注“造型”是绝对不够的，了解结构设计、能完成部分机械设计师的工作，才算完整的设计工作，加之当时设计课程中有机械原理、设计实践（冷热加工）等课程，更是对之深信不疑，甚至将其作为评价一个合格设计师的重要标准。然而关于设计与如何实现设计这两种类型的工作之间的关系，很久也没有理清，更无法兼顾。
+									<br />
+									<br />
+									对于开始新产品的设计规划，构建产品的构造和结构，到优化设计师和工程师之间的工作流，这样的设计思维习惯靠的不只是丰富的设计经验的积累，追寻和了解产品的故事，深入理解产品的生成历程，其从需求开始到被制造、出售、使用、淘汰，其存在的价值性和合理性都是既成事实，有其绝对的必要性，而其生成过程中的各种问题需要被重视从而找出原因以避免，问题背后的原因对于所有设计师和工程师有着很高的参考价值。</p>
+								</div>
+								<div class="card-footer">
+									<div class="card-footer-wrapper" layout="row bottom-left">
+										<div class="card-tag is-notShownIfHover">Product & Technology</div>
+										<div class="card-tag is-shownIfHover">Read article</div>
+										<div class="card-link is-shownIfHover" self="right"></div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</li>
+
+					<li class="mix design">
+						<a href="https://www.yuque.com/fansuen/jeff/gpzezzn" target="_blank">
+							<div class="card card--article not-visible" ><!--Article-->
+								<div class="card-body">
+									<div class="card-title mt4">Experience Consistensy</div>
+									<div class="card-description card-description--clamp-8">I’ve had the opportunity to collaborate with many UI/UX designers throughout my career, and I’ve noticed one very interesting thing about how they work: They don’t use established guides to complete projects. I at Pixel Point wrote this handoffs guide for just that purpose.</div>
+								</div>
+								<div class="card-hero">
+									<div class="card-image card-image--size-185" style="background-image: url(images/articles/article14.jpg);"></div>
+								</div>
+								<div class="card-footer">
+									<div class="card-footer-wrapper" layout="row bottom-left">
+										<div class="card-tag is-notShownIfHover">Design</div>
+										<div class="card-tag is-shownIfHover">Read article</div>
+										<div class="card-link is-shownIfHover" self="right"></div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</li>
+
+					<li class="mix ac">
+						<a href="https://www.yuque.com/fansuen/jeff/gpzezz" target="_blank">
+							<div class="card card--article not-visible" ><!--Article-->
+								<div class="card-body">
+									<div class="card-title mt4">国际现代主义对中国百年设计的影响</div>
+									<div class="card-description card-description--clamp-8">现代主义设计自20世纪初从德国等欧洲国家开始发展并迅速传播，到20世纪二三十年代包豪斯将现代主义设计推向登峰造极的高地，其影响几乎波及全世界，正处在黎明前的黑暗中的旧中国，也感受到了这股巨大浪潮。</div>
+								</div>
+								<div class="card-hero">
+									<div class="card-image card-image--size-185" style="background-image: url(images/articles/article11.jpg);"></div>
+								</div>
+								<div class="card-footer">
+									<div class="card-footer-wrapper" layout="row bottom-left">
+										<div class="card-tag is-notShownIfHover">Art & Culture</div>
+										<div class="card-tag is-shownIfHover">Read article</div>
+										<div class="card-link is-shownIfHover" self="right"></div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</li>
+					
+					<li class="mix design">
+						<a href="https://www.yuque.com/fansuen/jeff/gpzezzn" target="_blank"> <!--No Photo -->
+							<div class="card card--article not-visible" ><!--Article-->
+								<div class="card-body">
+									<div class="card-title mt4">如何提升色觉障碍用户的界面阅读体验</div>
+									<div class="card-description card-description--clamp-8">色盲与色弱以先天性因素为多见，男性患者远多于女性患者，全球有接近8%的男性和0.05%的女性存在先天性色觉障碍。</div>
+								</div>
+								<div class="card-hero">
+									<div class="card-image card-image--size-185" style="background-image: url(images/articles/article09.jpg);"></div>
+								</div>
+								<div class="card-footer">
+									<div class="card-footer-wrapper" layout="row bottom-left">
+										<div class="card-tag is-notShownIfHover">Design</div>
+										<div class="card-tag is-shownIfHover">Read article</div>
+										<div class="card-link is-shownIfHover" self="right"></div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</li>
+
+					<li class="mix design">
+						<a href="https://www.yuque.com/fansuen/jeff/gpzezzn" target="_blank"> <!--No Photo -->
+							<div class="card card--article not-visible" >
+								<div class="card-body">
+									<div class="card-title mt4 card-title--articleIfNoImage">和前端一起制定设计规范</div>
+									<p class="card-description card-description--clamp-16">产品设计规范对内用来简化开发过程、提高协作效率、使多个产品拥有一致的体验，是落到实处的东西。有幸在刚入部门时就主导了设计规范制定，本文结合笔者参与的项目，围绕：1，设计规范的要解决的问题；2，针对处于不同阶段的产品如何制定规范；3，制定的过程和后续工作这几个方面来总结和分享。
+									<br />
+									<br />
+								</div>
+								<div class="card-footer">
+									<div class="card-footer-wrapper" layout="row bottom-left">
+										<div class="card-tag is-notShownIfHover">Design</div>
+										<div class="card-tag is-shownIfHover">Read article</div>
+										<div class="card-link is-shownIfHover" self="right"></div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</li>
+					
+					<li class="mix design">
+						<a href="https://www.yuque.com/fansuen/jeff/gpzezzn" target="_blank">
+							<div class="card card--article not-visible" ><!--Article-->
+								<div class="card-body">
+									<div class="card-title mt4">如何高效的进行设计可用性测试</div>
+									<div class="card-description card-description--clamp-8">可用性测试是改善产品的最佳方式之一，可用研人手总是不足，为了能让各部门的同事能更快速地展开测试的工作,我整理了一些简单的文档和教程来普及可用性测试的方法。</div>
+								</div>
+								<div class="card-hero">
+									<div class="card-image card-image--size-185" style="background-image: url(images/articles/article02.jpg);"></div>
+								</div>
+								<div class="card-footer">
+									<div class="card-footer-wrapper" layout="row bottom-left">
+										<div class="card-tag is-notShownIfHover">Design</div>
+										<div class="card-tag is-shownIfHover">Read article</div>
+										<div class="card-link is-shownIfHover" self="right"></div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</li>			
+
+				</ul>
+			</div>
+
+		</div>
+	</div>
+
+
+	<script src="js/jquery.mixitup.min.js"></script>
+	<script src="js/smooth-scroll.js"></script>
+	<script>smoothScroll.init();</script>
+
+</div>
+
+<div id="footer" layout="rows center-left">
+	<div id="end-mark">
+		<div class="end-mark-icon"></div>
+		<p class="copyright">Fan Suen </p>
+		<!--
+		<p class="copyright">eng <a href="index.html">· chs</a></p>
+		-->
+	</div>
+	<div id="footer-links" self="right">
+		<ul>
+			<a href="https://dribbble.com/fansuen" target="_blank" onClick="ga('send', 'event', 'clicks', 'Footer');"><li class="dribbble"></li></a>
+			<a href="https://www.instagram.com/fannsuen/" target="_blank" onClick="ga('send', 'event', 'clicks', 'Footer');"><li class="instagram"></li></a>
+			<a href="https://www.linkedin.com/in/fansuen" target="_blank" onClick="ga('send', 'event', 'clicks', 'Footer');"><li class="linkedin"></li></a>
+		</ul>
+	</div>
+</div>
+
+
+</body>
+</html>
+
