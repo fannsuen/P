@@ -1,0 +1,1 @@
+$(function(){    var bgimage = new Image();          bgimage.src="images/about/about00.jpg";           $(bgimage).load(function(){  		$('.about-hero').addClass('visible');                      });});
