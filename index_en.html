@@ -135,12 +135,12 @@
 	-->
 
 
-	<style>.header-image { background-image:url(images/index.png);}</style>
+	<style>.header-image { background-image:url(images/index.jpg);}</style>
 
 	<script>
 		$(function(){
 		    var bgimage = new Image();      
-		    bgimage.src="images/index.png";       
+		    bgimage.src="images/index.jpg";       
 		    $(bgimage).load(function(){
 		        $('.header-image').addClass('visible');  
 		        $(".header-image").css("background-image","url("+$(this).attr("src")+")");
