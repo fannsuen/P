@@ -131,7 +131,8 @@
     max-width: 600px;
 }
 .container--page-width {
-    max-width: 1185px;
+    max-width: 1200px; 
+    display: block;  /*fansuen add*/
 }
 .grid-filters li {
     margin: 2px 15px;
@@ -555,6 +556,7 @@
     }
     .container--page-width {
         max-width: 790px;
+        display: block; /*fansuen add*/
     }   
     .container--hero {
         max-width: 990px;
@@ -653,6 +655,7 @@
     }
     .container--page-width {
         max-width: 560px;
+        display: block; /*fansuen add*/
     }
     .grid .is-sticky .grid-content {
         padding-top: 84px
@@ -717,6 +720,7 @@
     }
     .container--page-width {
         max-width: 100%;
+        display: block; /*fansuen add*/
     }
     .container--grid li {
         width:175px;
@@ -825,6 +829,7 @@
 @media only screen and (max-width: 320px) {
     .container--page-width {
         max-width: 100%;
+        display: block; /*fansuen add*/
     }
     .container--grid li {
         width:152px;
