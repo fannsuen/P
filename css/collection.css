@@ -20,7 +20,7 @@
 .container--full-screen {
 	min-height: 100vh;
 	margin: 0px 0;
-	background-color: #F0F1F5;
+	background-color: #FFFFFF;
 	z-index: -1;
 	padding:0 20px;
 }
